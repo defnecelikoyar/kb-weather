@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Kate Bush Weather</title>
+    <meta name="description" content="Weather app that gives you Kate Bush album recommendations">
+    <meta name="author" content="defne">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer type="text/javascript" src="index.js"></script>
+  </head>
+  <body id="body">
+
+
+    <main>
+      <header>
+        <h1 id="title">kate_bush_weather.app</h1>
+      </header>
+      <div id="content">
+      <div class="search">
+        <input id="searchbar" type="text" class="search" placeholder="Search city to unlock the recommendations within...">
+        <button id="search-button" type="button" class="search"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.8em" width="1.8em" xmlns="http://www.w3.org/2000/svg"><path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"></path></svg></button>
+      </div>  
+      <!--weather-display-->
+      <div id="weather">
+        <h2 id="city-name">city_name.txt</h2>
+        <img id="weather-image" src="https://images.squarespace-cdn.com/content/v1/5b788d28697a98e17a6d4c7a/1600295296979-KAQHBITF49KFG2UMNSOL/kateeeee+bush.jpg?format=1500w" width="450" height="450"/>
+        <h1 id="album-name">This app checks what weather you're experiencing in your city and match it with a Kate Bush album.</h1>
+        <span id="weather-report">
+          <h2 id="weather-summary"></h2> <h2 id="temperature"></h2>
+        </span>
+        <p id="album-justification"></p>
+      </div>
+        <!--comments-->
+      <div id="comments">
+          <h3 id="comments-header">This is a space for people to disagree with me (or tell me how right I am).</h3>
+          <ul id="comments-list">
+            <!-- <li></li>
+            <li></li> -->
+          </ul>
+      
+        <!--add-comments-->
+      <div class="new-comments-container">
+        <form id="new-comment">
+          <label for="new-comment" id="are-you-here">Try and prove me wrong.</label><br>
+          <textarea id="comment-input"></textarea>
+          <!-- <input type="text" id="comment-input" name="commentInput" />  -->
+          <button id="comment-btn" type="submit">comment</button>
+        </form>
+      </div>
+    </div>  
+    </div id="content">
+    </main>
+  </body>
+</html>
+
+

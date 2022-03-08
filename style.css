@@ -1,0 +1,200 @@
+@font-face {
+    font-family: Steps-Mono;
+    src: url(fonts/Steps-Mono.otf);
+  }
+  
+  @font-face {
+    font-family: Steps-Mono-Thin;
+    src: url(fonts/Steps-Mono-Thin.otf)
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1565660761890-0ecd9606690f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2576&q=80");
+   }
+  
+  div#content {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    width: 100%;
+  }
+  
+  h1#title {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    font-family: Steps-Mono;
+    font-size: 70px;
+    color: rgb(144, 0, 113);
+    width: 100%;
+    max-width: 20000px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+  
+  #search-button.search {
+    border-radius: 75%;
+    border: none;
+    background: #800970d0;
+    color: rgb(251, 251, 251);
+    height: 2.8em;
+    width: 2.8em;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+  
+  #search-button.search:hover {
+  background: #9957a76b;
+  }
+  
+  #searchbar.search {
+  border: none;
+  width: 60%;
+  height: 20px;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 0.5em;
+  border-radius: 10px;
+  background: #800970d0;
+  text-align: left;
+  font-family: cursive;
+  font-size: 20px;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  }
+  
+  ::placeholder {
+  color: white;
+  }
+  
+  img#weather-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+  }
+  
+  h2#city-name {
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color:rgb(144, 0, 113);
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+  
+  h1#album-name {
+    font-family: Steps-Mono;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.1em;
+    width: 100%;
+  }
+  
+  span#weather-report {
+    font-family: Steps-Mono;
+    margin-top: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h2#weather-summary {
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 0em;
+  }
+  
+  h2#temperature {
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 0em;
+  }
+  
+  p#album-justification {
+    font-family: Steps-Mono;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div#weather {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    border-radius: 5%;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  div#comments {
+    border-radius: 10px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 0.2em;
+    padding-bottom: 0em;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(85, 29, 91, 0.646);
+  }
+  
+  #comments-header {
+    text-align: center;
+    font-size: 1.2em;
+    width: 80%;
+    margin-left: 3em;
+  }
+  
+  #comment-input {
+    display: inline-block;
+    width: 400px;
+    /* height: 50px; */
+  }
+  
+  #comment-btn {
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    /* height: 50px;
+    margin-bottom: 200px; */
+    border-radius: 5px;
+  }
+  
+  #comment-btn:hover {
+    background: #ffa4f1dd;
+  }
+  
+  div.new-comments-container {
+    font-family: cursive;
+    font-size: 1em;
+    padding-bottom: 2em;
+  }
+  
+  #new-comment {
+    text-align: center;
+    height: 50px;
+  }
