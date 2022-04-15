@@ -109,14 +109,18 @@
     width: 100%;
   }
   
-  span#weather-report {
+  div#weather-report {
     font-family: Steps-Mono;
     margin-top: 0em;
-    padding-top: 0em;
-    padding-bottom: 0em;
+    /* padding-top: 0em;
+    padding-bottom: 0em; */
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* background-color: rgba(85, 29, 91, 0.646);
+    border-radius: 10px;
+    padding-top: 0em;
+    padding-bottom: 0.2em; */
   }
   
   h2#weather-summary {
@@ -133,10 +137,17 @@
   
   p#album-justification {
     font-family: Steps-Mono;
+    font-size: 20px;
     padding-top: 0em;
     padding-bottom: 0em;
     justify-content: center;
     align-items: center;
+    background-color: rgba(85, 29, 91, 0.646);
+    border-radius: 10px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
   
   div#weather {

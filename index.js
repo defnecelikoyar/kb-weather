@@ -14,9 +14,6 @@ const albumName = document.querySelector("#album-name");
 const summary = document.querySelector("#weather-summary");
 const tempData = document.querySelector("#temperature");
 const justification = document.querySelector("#album-justification");
-const commentsList = document.querySelector("#comments-list");
-const commentForm = document.querySelector("#new-comment");
-const commentInput = document.querySelector("#comment-input");
 
 var cities = {};
 document.addEventListener("DOMContentLoaded", function () {
@@ -140,17 +137,20 @@ function displayWeather(location, array) {
   }
 }
 
-const commentsList = document.querySelector("#comments-list");
+
 const commentForm = document.querySelector("#new-comment");
-const commentInput = document.querySelector("#comment-input")
+// const commentButton = document.querySelector("#comment-btn");
+const commentsList = document.querySelector("#comments-list");
+const commentInput = document.querySelector("#comment-input");
 
 commentForm.addEventListener("submit", addComment);
 function addComment(e) {
-  debugger;
+  // debugger;
   e.preventDefault();
   const li = document.createElement("li");
   li.textContent = commentInput.value;
+  console.log(commentInput.value);
+  console.log(commentsList);
   commentsList.appendChild(li);
   e.target.reset();
-
 }}
